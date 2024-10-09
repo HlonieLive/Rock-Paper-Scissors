@@ -7,7 +7,7 @@ pygame.init()
 window_height = 600
 window_width = 1000
 window = pygame.display.set_mode((window_width, window_height))
-pygame.display.set_caption("Rock Paper Sciccor")
+pygame.display.set_caption("Rock Paper Scissor")
 
 # Window Colours:
 black = (0, 0, 0)
