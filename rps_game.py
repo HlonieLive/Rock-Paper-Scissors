@@ -1,6 +1,5 @@
 import pygame
 import random
-from PIL import Image
 
 
 pygame.init()
@@ -21,8 +20,8 @@ indigo = (75, 0, 130)
 
 
 # Fonts to be used:
-font1 = pygame.font.SysFont("Comic Sans MS", 50)
-small_font = pygame.font.SysFont("Times New Roman", 36)
+font1 = pygame.font.SysFont("Comic Sans MS", 45)
+small_font = pygame.font.SysFont("Times New Roman", 25)
 
 # Game choices:
 game_choices = ["Rock", "Paper", "Scissor", "Lizard", "Spock"]
@@ -73,7 +72,7 @@ def rps(player_choice, computer_choice):
     cpu_score = 0
     player_score = 0
     if computer_choice == player_choice:
-        return "Its a Draw!"
+        return "It's a Tie!"
     elif (
         (computer_choice == options[0] and player_choice == options[1])
         or (computer_choice == options[2] and player_choice == options[0])
@@ -90,7 +89,7 @@ def rps(player_choice, computer_choice):
         return "You Win!"
     else:
         cpu_score += 1
-        return "You loose!"
+        return "You Lose!"
 
 
 # 1. Player Images
@@ -139,7 +138,7 @@ while running:
     user = small_font.render("Player 1", True, black)
     window.blit(user, (800, 110))
     cpu = small_font.render("The CPU", True, black)
-    window.blit(cpu, (115, 110))
+    window.blit(cpu, (130, 110))
     window.blit(player_rock, (750, 150))
     window.blit(computer_rock, (80, 150))
     # The Title:
@@ -160,32 +159,32 @@ while running:
     user = small_font.render("Player 1", True, black)
     window.blit(user, (800, 110))
     cpu = small_font.render("The CPU", True, black)
-    window.blit(cpu, (115, 110))
+    window.blit(cpu, (130, 110))
     if player_choice:
         if player_choice == "Rock":
             window.blit(player_rock, (750, 150))
             player_text = small_font.render(f"You Chose: {player_choice}", True, black)
-            window.blit(player_text, (715, 360))
+            window.blit(player_text, (770, 360))
 
         elif player_choice == "Paper":
             window.blit(player_paper, (750, 150))
             player_text = small_font.render(f"You Chose: {player_choice}", True, black)
-            window.blit(player_text, (715, 360))
+            window.blit(player_text, (770, 360))
 
         elif player_choice == "Scissor":
             window.blit(player_scissor, (750, 150))
             player_text = small_font.render(f"You Chose: {player_choice}", True, black)
-            window.blit(player_text, (715, 360))
+            window.blit(player_text, (770, 360))
 
         elif player_choice == "Lizard":
             window.blit(player_lizard, (750, 150))
             player_text = small_font.render(f"You Chose: {player_choice}", True, black)
-            window.blit(player_text, (715, 360))
+            window.blit(player_text, (770, 360))
 
         elif player_choice == "Spock":
             window.blit(player_spock, (750, 150))
             player_text = small_font.render(f"You Chose: {player_choice}", True, black)
-            window.blit(player_text, (715, 360))
+            window.blit(player_text, (770, 360))
 
     if computer_choice:
         if computer_choice == "Rock":
@@ -193,31 +192,31 @@ while running:
             computer_text = small_font.render(
                 f"The CPU Chose: {computer_choice}", True, black
             )
-            window.blit(computer_text, (40, 360))
+            window.blit(computer_text, (60, 360))
         elif computer_choice == "Paper":
             window.blit(computer_paper, (80, 150))
             computer_text = small_font.render(
                 f"The CPU Chose: {computer_choice}", True, black
             )
-            window.blit(computer_text, (40, 360))
+            window.blit(computer_text, (60, 360))
         elif computer_choice == "Scissor":
             window.blit(computer_scissor, (80, 150))
             computer_text = small_font.render(
                 f"The CPU Chose: {computer_choice}", True, black
             )
-            window.blit(computer_text, (40, 360))
+            window.blit(computer_text, (60, 360))
         elif computer_choice == "Lizard":
             window.blit(computer_lizard, (80, 150))
             computer_text = small_font.render(
                 f"The CPU Chose: {computer_choice}", True, black
             )
-            window.blit(computer_text, (40, 360))
+            window.blit(computer_text, (60, 360))
         elif computer_choice == "Spock":
             window.blit(computer_spock, (80, 150))
             computer_text = small_font.render(
                 f"The CPU Chose: {computer_choice}", True, black
             )
-            window.blit(computer_text, (40, 360))
+            window.blit(computer_text, (60, 360))
 
     # Display Results:
     if results:
