@@ -19,10 +19,15 @@ Welcome to the Rock, Paper, Scissors game! This project is a simple implementati
 2. The computer randomly selects its choice.
 
 3. The game compares the choices using the rules:
+   
   • Rock beats scissors and lizard.
+
   • Scissors beat paper and lizard.
+  
   • Paper beats rock and spock.
+  
   • lizard beats paper and spock.
+  
   • spock beats rock and scissors.
 
 5. The result (win, lose, or draw) is displayed.
