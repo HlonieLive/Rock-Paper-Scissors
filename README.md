@@ -48,7 +48,7 @@ Welcome to the Rock, Paper, Scissors game! This project is a simple implementati
       pip install pygame
 
 5. Run the game:
-      python rps.py
+      python rps_game.py
 
 
 ## How to Play
@@ -68,7 +68,7 @@ Welcome to the Rock, Paper, Scissors game! This project is a simple implementati
 
 ## Project Structure
 
-   • main.py: The main game logic.
+   • rps_game.py: The main game logic.
 
    • README.md: Instructions and details about the project.
 
