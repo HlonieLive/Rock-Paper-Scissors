@@ -5,11 +5,11 @@ Welcome to the Rock, Paper, Scissors game! This project is a simple implementati
 
 ## Features
 
-• Single-player mode against a computer.
+   • Single-player mode against a computer.
 
-• Randomized computer moves to ensure fairness.
+   • Randomized computer moves to ensure fairness.
 
-• A user-friendly interface for input and output.
+   • A user-friendly interface for input and output.
 
 
 ## Usage
@@ -36,30 +36,30 @@ Welcome to the Rock, Paper, Scissors game! This project is a simple implementati
 ## Installation
 
 1. Clone this repository:
-   git clone (link)
+      git clone (link)
    
 2. Navigate to the project directory:
-   cd rock-paper-scissor
+      cd rock-paper-scissor
    
 3. Ensure you have Python installed.
-   (Version 3.6 or higher)
+      (Version 3.6 or higher)
 
 4. Install pygame:
-   pip install pygame
+      pip install pygame
 
 5. Run the game:
-   python rps.py
+      python rps.py
 
 
 ## How to Play
 
-1. Press a button of your choice (rock, paper, scissors, lizard or spock).
+   1. Press a button of your choice (rock, paper, scissors, lizard or spock).
 
-2. The computer will then randomly make its choice.
+   2. The computer will then randomly make its choice.
 
-3. The results will be shown.
+   3. The results will be shown.
 
-4. Continue playing or quit by following the on-screen instructions.
+   4. Continue playing or quit by following the on-screen instructions.
 
 ## Built With
 
@@ -68,11 +68,13 @@ Welcome to the Rock, Paper, Scissors game! This project is a simple implementati
 
 ## Project Structure
 
-• main.py: The main game logic.
-• README.md: Instructions and details about the project.
+   • main.py: The main game logic.
+
+   • README.md: Instructions and details about the project.
 
 
 ## Contributing
+
 Contributions are welcome! Feel free to fork the repository, make changes, and submit a pull request.
 
 
@@ -84,4 +86,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 ## Contact
 
 If you have any questions or feedback, feel free to reach out:
-• Email: sucsido@gmail.com
+   
+   • Email: sucsido@gmail.com
