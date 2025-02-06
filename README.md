@@ -81,10 +81,3 @@ Contributions are welcome! Feel free to fork the repository, make changes, and s
 ## LICENSE
 
 This project is licensed under the MIT License. See the LICENSE file for details.
-
-
-## Contact
-
-If you have any questions or feedback, feel free to reach out:
-   
-   • Email: sucsido@gmail.com
